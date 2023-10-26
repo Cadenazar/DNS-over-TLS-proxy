@@ -3,7 +3,9 @@ Simple DNS to DNS-over-TLS proxy
 
 This code converts all received DNS UDP packets into DNS-over-TLS packets. This helps to prevent DNS poisoning and sniffing of DNS packets.
 To get this script to work, download the script. Next pip installs the only requirement needed for this script dnslib.
+
 ```pip install dnslib```
+
 Run the script as administrator. Next, Change the DNS server used by the device it is installed on to 127.0.0.1. For windows it will look like below.
 ![image](https://github.com/Cadenazar/DNS-over-TLS-proxy/assets/88576308/9972e81b-e120-45e0-8d27-df3b3f4884e8)
 
