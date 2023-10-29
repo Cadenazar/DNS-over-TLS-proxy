@@ -25,7 +25,7 @@ def build_query(packet):
         packet = packet_len + packet
         return packet
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     # Create a socket to accept incoming DNS requests
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as proxy_socket:
         proxy_socket.bind(('127.0.0.1',53))  # Listen on port 53 for DNS
